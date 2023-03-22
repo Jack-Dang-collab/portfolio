@@ -9,7 +9,7 @@ const Header = () => {
     <section className='flex items-center flex-wrap text-center pt-[50px] px-[25px] pb-[25px]'>
         <img className="max-w-[300px] h-auto my-[20px] mx-auto rounded-full" src="/profileimg.jpg" alt="Jack Dang" />
 
-        <div className='w-[400px] my-0 mx-auto bg-gray-900 bg-opacity-50 rounded-md p-4'>
+        <div className='w-[400px] my-0 mx-auto'>
             <h1 className='font-bold text-[48px]'>Hi, I'm Jack Dang</h1>
             <p className='font-bold text-[32px]'>Blockchain Developer</p>
             <div className='flex text-center items-center justify-center gap-3'>
