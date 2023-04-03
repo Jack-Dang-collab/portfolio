@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className='pt-[25px] pb-[25px]'>
         <h2 className='text-[42px] my-[25px] mx-auto text-center items-center justify-center font-bold'>About Me</h2>
-        <p className='text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
+        <p className='indent-8 text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
         As a self-taught developer with a passion for blockchain technology, I am excited to bring my skills and expertise to the world of decentralized applications.
 
         With two pet projects under my belt, I have gained valuable experience in developing blockchain-based applications. One of my projects involved building a crowdfunding platform using blockchain technology, which enabled users to contribute to various campaigns in a secure and transparent manner. Another project involved creating a horoscope application that leveraged the RapidAPI to deliver personalized astrological readings to users.
