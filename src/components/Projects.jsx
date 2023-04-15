@@ -1,6 +1,7 @@
 import React from 'react'
 import crowdfunding from '../assets/crowdfunding.png'
 import horoscope from '../assets/horoscope.png'
+import market from '../assets/market.png'
 
 const Projects = () => {
   return (
@@ -23,6 +24,14 @@ const Projects = () => {
 
                 <a href="https://radiant-caramel-065e0d.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
                 <a href="https://github.com/Jack-Dang-collab/horoscope" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Code</a>
+            </div>
+
+            <div className="max-w-[350px] p-5 border border-solid border-[#0088BB] rounded-lg bg-gray-900 bg-opacity-50">
+                <h3 className='text-[32px] font-semibold mb-[10px]'>Web3Market</h3>
+                <img src={market} alt="Web3Market Landing Page" />
+
+                <a href="https://lighthearted-boba-4175c7.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
+                <a href="https://github.com/Jack-Dang-collab/web3market" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Code</a>
             </div>
         </div>
     </section>
