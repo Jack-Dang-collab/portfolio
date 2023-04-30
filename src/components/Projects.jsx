@@ -14,7 +14,7 @@ const Projects = () => {
                 <h3 className='text-[32px] font-semibold mb-[10px]'>Crowdfunding</h3>
                 <img src={crowdfunding} alt="Crowdfunding Landing Page" />
 
-                <a href="https://storied-squirrel-56d6c6.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
+                <a href="https://dapp-crowdfunding.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
                 <a href="https://github.com/Jack-Dang-collab/crowdfunding" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Code</a>
             </div>
 
@@ -22,7 +22,7 @@ const Projects = () => {
                 <h3 className='text-[32px] font-semibold mb-[10px]'>Horoscope</h3>
                 <img src={horoscope} alt="Horoscope Landing Page" />
 
-                <a href="https://radiant-caramel-065e0d.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
+                <a href="https://horoscope999.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
                 <a href="https://github.com/Jack-Dang-collab/horoscope" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Code</a>
             </div>
 
@@ -30,7 +30,7 @@ const Projects = () => {
                 <h3 className='text-[32px] font-semibold mb-[10px]'>Web3Market</h3>
                 <img src={market} alt="Web3Market Landing Page" />
 
-                <a href="https://lighthearted-boba-4175c7.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
+                <a href="https://web3market.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
                 <a href="https://github.com/Jack-Dang-collab/web3market" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Code</a>
             </div>
         </div>
