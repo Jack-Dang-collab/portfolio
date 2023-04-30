@@ -5,7 +5,7 @@ const About = () => {
     <section className='pt-[25px] pb-[25px]'>
         <h2 className='text-[42px] my-[25px] mx-auto text-center items-center justify-center font-bold'>About Me</h2>
         <p className='indent-8 text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
-          Hello and welcome to my portfolio! My name is Jack, and I am a self-taught blockchain developer with a passion for building innovative decentralized applications. My journey into blockchain began out of a curiosity for how this emerging technology could transform traditional systems and industries.
+          Hello and welcome to my portfolio! My name is Thanh, and I am a self-taught blockchain developer with a passion for building innovative decentralized applications. My journey into blockchain began out of a curiosity for how this emerging technology could transform traditional systems and industries.
         </p>
         <p className='indent-8 text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
           One of my most exciting projects involved building a crowdfunding platform on the blockchain. This platform allowed users to contribute to various campaigns in a secure and transparent manner, leveraging the power of smart contracts to ensure that funds were distributed fairly and as per the campaign's conditions.
