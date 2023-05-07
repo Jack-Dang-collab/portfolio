@@ -3,6 +3,7 @@ import About from "./About";
 import Project from "./Project";
 import Projects from "./Projects";
 import Footer from "./Footer";
+import LinkIcon from "./LinkIcon";
 
 export {
     Header,
@@ -10,4 +11,5 @@ export {
     Project,
     Projects,
     Footer,
+    LinkIcon,
 }
