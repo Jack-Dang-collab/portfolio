@@ -2,6 +2,8 @@ import React from 'react'
 import crowdfunding from '../assets/crowdfunding.png'
 import horoscope from '../assets/horoscope.png'
 import market from '../assets/market.png'
+import ai from '../assets/ai.png'
+import Project from './Project'
 
 const Projects = () => {
   return (
@@ -9,30 +11,33 @@ const Projects = () => {
         <h2 className='text-[42px] my-[25px] mx-auto text-center items-center justify-center font-bold'>My Projects</h2>
 
         <div className="flex flex-start flex-wrap gap-5 text-center items-center justify-center">
+            <Project 
+                name="Crowdfunding"
+                image={crowdfunding}
+                website="https://dapp-crowdfunding.netlify.app/"
+                githubSite="https://github.com/Jack-Dang-collab/crowdfunding"
+            />
 
-            <div className="max-w-[350px] p-5 border border-solid border-[#0088BB] rounded-lg bg-gray-900 bg-opacity-50">
-                <h3 className='text-[32px] font-semibold mb-[10px]'>Crowdfunding</h3>
-                <img src={crowdfunding} alt="Crowdfunding Landing Page" />
+            <Project 
+                name="Horoscope"
+                image={horoscope}
+                website="https://horoscope999.netlify.app/"
+                githubSite="https://github.com/Jack-Dang-collab/horoscope"
+            />
 
-                <a href="https://dapp-crowdfunding.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
-                <a href="https://github.com/Jack-Dang-collab/crowdfunding" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Code</a>
-            </div>
+            <Project 
+                name="Web3Market"
+                image={market}
+                website="https://web3market.netlify.app/"
+                githubSite="https://github.com/Jack-Dang-collab/web3market"
+            />
 
-            <div className="max-w-[350px] p-5 border border-solid border-[#0088BB] rounded-lg bg-gray-900 bg-opacity-50">
-                <h3 className='text-[32px] font-semibold mb-[10px]'>Horoscope</h3>
-                <img src={horoscope} alt="Horoscope Landing Page" />
-
-                <a href="https://horoscope999.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
-                <a href="https://github.com/Jack-Dang-collab/horoscope" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Code</a>
-            </div>
-
-            <div className="max-w-[350px] p-5 border border-solid border-[#0088BB] rounded-lg bg-gray-900 bg-opacity-50">
-                <h3 className='text-[32px] font-semibold mb-[10px]'>Web3Market</h3>
-                <img src={market} alt="Web3Market Landing Page" />
-
-                <a href="https://web3market.netlify.app/" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Site</a>
-                <a href="https://github.com/Jack-Dang-collab/web3market" target="_blank" className="my-[10px] mx-[5px] mb-0 border bg-cyan-800 hover:bg-cyan-500 text-white p-2 rounded-md inline-block font-semibold">Code</a>
-            </div>
+            <Project 
+                name="AI Summarizer"
+                image={ai}
+                website="https://ai-summarizer9999.netlify.app"
+                githubSite="https://github.com/Jack-Dang-collab/ai_summarizer"
+            />
         </div>
     </section>
   )
