@@ -5,19 +5,16 @@ const About = () => {
     <section className='pt-[25px] pb-[25px]'>
         <h2 className='text-[42px] my-[25px] mx-auto text-center items-center justify-center font-bold'>About Me</h2>
         <p className='indent-8 text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
-          Welcome to my portfolio! I'm Thanh, a self-taught blockchain developer who's passionate about creating innovative decentralized applications. I became intrigued by blockchain's potential to revolutionize traditional systems and industries, and I've since built a range of exciting projects.
+          Hello, my name is Thanh, and I am a self-taught front-end and blockchain developer. I have always been interested in technology and coding, and I have spent the last few years building my skills in these areas.
         </p>
         <p className='indent-8 text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
-          For instance, I built a crowdfunding platform that uses smart contracts to ensure secure, transparent, and fair distribution of funds. Additionally, I created a horoscope application that provides personalized astrological readings to users. By utilizing the RapidAPI, I was able to display relevant astrological data in a user-friendly interface.
+          In terms of front-end development, I have experience with HTML, CSS, JavaScript, ReactJS, Redux, and TailwindCSS. I enjoy creating user interfaces that are intuitive, responsive, and visually appealing. I have built several projects that showcase my skills, including a crowdfunding platform, a web3 market platform, horoscope, URL summarizer and a portfolio website.
         </p>
         <p className='indent-8 text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
-          My latest project is a web3 marketplace, built with Solidity, that allows buyers and sellers to conduct transactions directly, without the need for a third party. This enhances the security, transparency, and efficiency of transactions, and I'm always looking for new ways to utilize blockchain technology to benefit society.
+          In addition to front-end development, I am also interested in blockchain technology. I have experience with Ethereum, Solidity, and Thirdweb framework, and I have built several decentralized applications (DApps) that leverage smart contracts to provide secure and transparent functionality. I believe that blockchain has the potential to revolutionize many industries, and I am excited to be a part of this emerging field.
         </p>
         <p className='indent-8 text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
-          I'm also excited to share my latest creation - an AI summarizer that leverages RapidAPI, Redux, ReactJS, and TailwindCSS to summarize any article or webpage. By extracting key points and important information, users can quickly obtain the insights they need to save time and improve their productivity. I'm thrilled about the potential impact this project can have on individuals and businesses alike.
-        </p>
-        <p className='indent-8 text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
-          If you are looking for a self-motivated and innovative blockchain developer who can bring your ideas to life, then I would love to hear from you.
+          Overall, I am a dedicated and passionate developer who is always looking for new challenges and opportunities to learn and grow. I am confident that my skills and experience would make me a valuable asset to any team, and I am eager to contribute my expertise to help create innovative solutions that make a positive impact on people's lives.
         </p>
     </section>
   )
