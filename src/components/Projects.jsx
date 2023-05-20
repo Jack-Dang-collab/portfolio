@@ -3,6 +3,7 @@ import crowdfunding from '../assets/crowdfunding.png'
 import horoscope from '../assets/horoscope.png'
 import market from '../assets/market.png'
 import ai from '../assets/ai.png'
+import airbnb from '../assets/airbnb.png'
 import Project from './Project'
 
 const Projects = () => {
@@ -37,6 +38,12 @@ const Projects = () => {
                 image={ai}
                 website="https://ai-summarizer9999.netlify.app"
                 githubSite="https://github.com/Jack-Dang-collab/ai_summarizer"
+            />
+            <Project 
+                name="Airbnb Clone"
+                image={airbnb}
+                website="https://renting-clone.vercel.app/"
+                githubSite="https://github.com/Jack-Dang-collab/airbnb-clone"
             />
         </div>
     </section>
