@@ -9,9 +9,9 @@ import LinkIcon from './LinkIcon'
 const Header = () => {
   return (
     <section className='flex items-center flex-wrap text-center pt-[50px] px-[25px] pb-[25px]'>
-        <img className="max-w-[300px] h-auto my-[20px] mx-auto rounded-full" src="/profileimg.jpg" alt="Jack Dang" />
+        <img data-aos="slide-right" className="max-w-[300px] h-auto my-[20px] mx-auto rounded-full" src="/profileimg.jpg" alt="Jack Dang" />
 
-        <div className='w-[400px] my-0 mx-auto'>
+        <div data-aos="slide-left" className='w-[400px] my-0 mx-auto'>
             <h1 className='font-bold text-[48px]'>Hi, I'm Thanh Dang</h1>
             <p className='font-bold text-[32px]'>Self-taught Developer</p>
             <div className='flex text-center items-center justify-center gap-3'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className='pt-[25px] pb-[25px]'>
+    <section data-aos="fade-up" className='pt-[25px] pb-[25px]'>
         <h2 className='text-[42px] my-[25px] mx-auto text-center items-center justify-center font-bold'>About Me</h2>
         <p className='indent-8 text-[18px] leading-tight max-w-[75ch] text-justify items-center justify-center mx-auto font-semibold px-10'>
           Hello, my name is Thanh, and I am a self-taught front-end and blockchain developer. I have always been interested in technology and coding, and I have spent the last few years building my skills in these areas.
