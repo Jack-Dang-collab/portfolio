@@ -1,4 +1,4 @@
-import { About, Footer, Header, Projects } from "./components"
+import { About, Footer, Header, Projects, Tech } from "./components"
 import AOS from "aos"
 import 'aos/dist/aos.css'
 import { useEffect } from "react"
@@ -20,6 +20,7 @@ function App() {
     <div className="max-w-[1200px] mx-auto my-0">
       <Header />
       <About />
+      <Tech />
       <Projects />
       <Footer />
     </div>

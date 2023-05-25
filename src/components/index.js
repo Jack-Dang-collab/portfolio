@@ -4,6 +4,7 @@ import Project from "./Project";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import LinkIcon from "./LinkIcon";
+import Tech from "./Tech";
 
 export {
     Header,
@@ -12,4 +13,5 @@ export {
     Projects,
     Footer,
     LinkIcon,
+    Tech,
 }
